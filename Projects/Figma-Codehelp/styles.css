@@ -1,0 +1,128 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+#wrapper{
+   height: 100vh;
+ 
+ 
+}
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    height: 2500px;
+    width: 2000px;
+    justify-content: center;
+    align-items: center;
+    
+}
+html{
+   scroll-behavior: smooth;
+}
+.container{
+   display: grid;
+   height: 1400px;
+   width: 1000px;
+   background-color: #e5e5e5; 
+   grid-template-columns: repeat(2, 50%);
+   grid-template-rows: 150px 1fr 1fr;
+   gap: 20px;
+
+}
+.container2{
+   display: grid;
+   height: 200px;
+   width: 1000px;
+   background-color: #e5e5e5;
+   justify-content: space-around;
+   grid-template-columns:250px 250px 250px 200px;
+   grid-template-rows: 200px;
+}
+.navbar{
+   grid-column: 1/span3;
+   display: flex;
+   justify-content: space-around;
+   align-items: baseline;
+ 
+   
+}
+.img{
+   margin-top: 20px;
+}
+ 
+a{
+   text-decoration: none;
+}
+.links{
+   color: #777C85;
+}
+.btn:hover{
+   background-color: blueviolet;
+    
+}
+.box2{
+   grid-column-start: 2;
+   grid-column-end: 3;
+}
+.box3{
+   grid-column-start: 1;
+   grid-column-end: 2;
+}
+.icon{
+   width: 45px;
+   height: 30px;
+}
+.img1, .img2{
+   width: 450px;
+   height: 400px;
+}
+h2{
+   font-family: 'Roboto Flex';
+   width:312px;
+   height: 45px;
+   margin-top: 50px;
+   font-size: 48px;
+    font-weight: 600px;
+    font-style: normal;
+    font-stretch: 100;
+    padding-bottom: 70px;
+    border-bottom-style:solid; 
+    border-bottom-width: 1px;
+    border-bottom-color: #5e636c;
+    width: fit-content;
+    
+}
+p{
+    
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 500px;
+   font-size: 25px;
+   color:#777C85;
+}
+h4{
+   
+   color: #4E5DC0;
+   text-decoration: underline;
+   text-decoration-color: #777C85;
+  
+}
+#policyterm{
+   color:#777C85;
+}
+.hover:hover{
+   text-decoration: underline;
+   text-decoration-color: skyblue;
+   text-decoration-thickness:5px ;
+}
+.social{
+   width: 100px;
+}
+.sec3{
+   margin-left: 50px;
+}
+b{
+   font-weight: bold;
+}
